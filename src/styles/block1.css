@@ -1,0 +1,463 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 2895px;
+    background: #FFFFFF;
+  }
+
+  .block-1{
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 778px;
+    left: 0px;
+    top: 0px;
+    background: #111827;
+  }
+  
+  .block-1-careers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px 4px 4px;
+    position: absolute;
+    width: 309px;
+    height: 26px;
+    left: 71px;
+    top: 80px;
+    background: #000000;
+    border-radius: 14px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+  
+  .block1-careers-hiring{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 12px;
+    width: 88px;
+    height: 22px;
+    background: #6366F1;
+    border-radius: 10px;
+  }
+  
+  .block1-careers-hiring-text{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  .block1-careers-visit-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  .block1-careers-icon{
+    margin-right:10px;
+    width: 6px;
+    height: 10px; 
+  }
+  
+  .block1-ship-desc-1{
+    position: absolute;
+    display: flex;
+    width: 592px;
+    height: 120px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    align-self: stretch;
+    left: 71px;
+    top: 120px;
+  }
+  
+  .ship{
+    color:#6366F1 ;
+  }
+  
+  .block1-ship-desc-2{
+    position: absolute;
+    display: flex;
+    width: 530px;
+    height: 84px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+    color: #D1D5DB;
+    align-self: stretch;
+    left: 71px;
+    top: 310px;
+  }
+  .e__mail{
+    background: none;
+    text-decoration: none;
+    border: none;
+    width: 425px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="text"] {
+  /* Firefox, Chrome, Opera */
+  padding-left: 10px;
+  }
+  .email-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 425px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    left: 71px;
+    top: 430px;
+  }
+  
+  .email-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: #6B7280;
+    margin: 0 12px;
+  }
+  
+  .free-trial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 139px;
+    height: 48px;
+    background: #6366F1;
+    border-radius: 6px;
+    left: 508px;
+    top: 430px;
+  }
+  
+  .free-trial-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  .free-trial-start-text{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 84px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+    align-self: stretch;
+    left: 71px;
+    top: 482px;
+  }
+  
+  .menu-left {
+    margin-top:30px;
+    margin-left: 100px;
+    width: 87%;
+    list-style-type: none;
+    color: white;
+  }
+  
+  .menu-left-item {
+    float: left;
+    padding: 10px;
+    margin-left: 32px;
+  }
+  
+  .menu-right-item {
+    float: right;
+    padding: 10px;
+    margin-right: 32px;
+  }
+  
+  .menu-free-trial{
+    background: #4B5563;
+    border-radius: 6px;
+  }
+  
+  .block1-img{
+    margin-left: 50%;
+    margin-top: 3%;
+    height: 600px;
+    width: 750px;
+    overflow: hidden;
+  }
+  
+  .mark{
+    position: absolute;
+    margin-left: 0;
+    width: 41.25px;
+    height: 37.5px;
+    margin-top: 28px;
+    margin-left: 71px;
+  }
+  
+  .terms{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .block1-careers-hiring:hover,.free-trial:hover,.menu-free-trial:hover{
+    transform: scale(1.05);
+  }
+  
+  li:hover,.terms:hover, .mark:hover, .block-1-careers:hover,.free-trial:hover{
+    cursor: pointer;
+  }
+  
+  .mobile-menu-icon{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .container{
+      position: relative;
+      width: 100%;
+      height: 2895px;
+      background: #FFFFFF;
+    }
+    
+    .block-1{
+      font-family: Inter,sans-serif;
+      font-style: normal;
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: absolute;
+      width: 100%;
+      height: 888px;
+      left: 0px;
+      top: 0px;
+      background: #111827;
+    }
+    
+    .block-1-careers{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px 8px 4px 4px;
+      position: absolute;
+      width: 280px;
+      height: 26px;
+      left: 15px;
+      top: 25px;
+      background: #000000;
+      border-radius: 14px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    
+    .block1-careers-hiring{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 2px 12px;
+      width: 88px;
+      height: 22px;
+      background: #6366F1;
+      border-radius: 10px;
+    }
+    
+    .block1-careers-hiring-text{
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.025em;
+      color: #FFFFFF;
+      margin: 0 auto;
+    }
+    
+    .block1-careers-visit-text{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.025em;
+      color: #FFFFFF;
+      margin: 0 auto;
+    }
+    
+    .block1-careers-icon{
+      margin-right:10px;
+      width: 6px;
+      height: 10px; 
+    }
+    
+    .block1-ship-desc-1{
+        width: 95%;
+      position: absolute;
+      display: flex;
+      height: 120px;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 40px;
+      letter-spacing: -0.025em;
+      color: #FFFFFF;
+      align-self: stretch;
+      left: 15px;
+      top: 75px;
+    }
+    
+    .ship{
+      color:#6366F1 ;
+    }
+    
+    .block1-ship-desc-2{
+      position: absolute;
+      display: flex;
+      width: 90%;
+      height: 96px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.025em;
+      color: #D1D5DB;
+      align-self: stretch;
+      left: 15px;
+      top: 204px;
+    }
+    .e__mail{
+
+        border: none;
+        width: 100%;
+
+    }
+    .email-search{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      width: 90%;
+      height: 48px;
+      background: #FFFFFF;
+      border-radius: 6px;
+      left: 15px;
+      top: 330px;
+    }
+    
+    .email-text{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.025em;
+      color: #6B7280;
+      margin: 0 12px;
+    }
+    
+    .free-trial{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      width: 90%;
+      height: 48px;
+      background: #6366F1;
+      border-radius: 6px;
+      left: 15px;
+      top: 390px;
+    }
+    
+    .free-trial-text{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.025em;
+      color: #FFFFFF;
+      margin: 0 auto;
+    }
+    
+    .free-trial-start-text{
+      position: absolute;
+      display: flex;
+      width: 90%;
+      height: 60px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #D1D5DB;
+      align-self: stretch;
+      left: 15px;
+      top: 450px;
+    }
+    
+    .menu-left {
+      display: none;
+    }
+    
+    .menu-left-item {
+      display: none;
+    }
+    
+    .menu-right-item {
+      display: none;
+    }
+    
+    .menu-free-trial{
+      display: none;
+    }
+    
+    .block1-img{
+      position:absolute;
+      top:540px;
+      object-fit: fill;
+      height: 600px;
+      width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+    
+    .mark{
+      position: absolute;
+      margin-left: 0;
+      width: 33px;
+      height: 30px;
+      margin-top: 14px;
+      margin-left: 17px;
+    }
+  
+    .mobile-menu-icon{
+      position: absolute;
+      width: 33px;
+      height: 30px;
+      margin-top: 14px;
+      margin-left: 50px;
+    }
+    
+    .terms{
+      color: white;
+      font-weight: bold;
+    }
+    
+    .block1-careers-hiring:hover,.free-trial:hover,.menu-free-trial:hover{
+      transform: scale(1.05);
+    }
+  }
+  
