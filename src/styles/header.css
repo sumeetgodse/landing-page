@@ -62,7 +62,7 @@ body {
   }
    
   
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 850px) {
     .topnav a.free__trial {
       width:80%;
    }

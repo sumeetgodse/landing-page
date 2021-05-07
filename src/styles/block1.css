@@ -203,10 +203,10 @@ input[type="text"] {
   }
   
   .block1-img{
-    margin-left: 50%;
-    margin-top: 3%;
-    height: 600px;
-    width: 750px;
+    margin-left: 53%;
+    margin-top: 1%;
+    height: auto;
+    width: 700px;
     overflow: hidden;
   }
   
@@ -236,7 +236,7 @@ input[type="text"] {
     display: none;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 850px) {
     .container{
       position: relative;
       width: 100%;
@@ -460,4 +460,3 @@ input[type="text"] {
       transform: scale(1.05);
     }
   }
-  
