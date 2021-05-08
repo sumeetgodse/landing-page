@@ -40,7 +40,7 @@
     width: 48px;
 }
 .block2-img:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -158,15 +158,13 @@
         font-size: 16px;
         line-height: 24px;
         color: #6B7280;
-        width: 100%;
+        width: 95%;
     }
     
     .column3 {
         margin-left: 16px;
-        margin-top: 558px;
+        margin-top: 538px;
         display: inline-block;
-        width: 90%;
-        position: absolute;
-        top: 0;
+        width: 100%;
     }
 }

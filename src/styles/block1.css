@@ -7,7 +7,7 @@
   }
 
   .block-1{
-    font-family: Inter,sans-serif;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     display: flex;
     flex-direction: column;
@@ -226,7 +226,7 @@ input[type="text"] {
   }
   
   .block1-careers-hiring:hover,.free-trial:hover,.menu-free-trial:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
   
   li:hover,.terms:hover, .mark:hover, .block-1-careers:hover,.free-trial:hover{
