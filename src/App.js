@@ -1,5 +1,6 @@
 import React from "react"
 import Block1 from "./components/Block1"
+import Block2 from "./components/Block2";
 import Header from "./components/Header"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Block1 />
+      <Block2 />
     </>
   );
 }
