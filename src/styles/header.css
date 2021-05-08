@@ -50,7 +50,7 @@ body {
   }
 
   .topnav a.free__trial {
-      width:10%;
+      width:150px;
       border-radius: 6px;
       background-color: #4B5563;
     float:right;
