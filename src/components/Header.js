@@ -22,7 +22,7 @@ export default function Header() {
             <a href="#about">Company</a>
             <a href="#free__trial" className="free__trial">Start free trial</a>
             <a href="#login" className="login">Login</a>
-            <a href="javascript:void(0);" className="icon" onClick={myFunction}>
+            <a /*href="javascript:void(0);"*/ className="icon" onClick={myFunction}>
                 <i className="fa fa-bars"></i>
             </a>
         </div>
