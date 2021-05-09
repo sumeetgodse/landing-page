@@ -1,0 +1,148 @@
+.block5 {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    padding-top: 64px;
+}
+
+li {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+    display: block;
+}
+
+.li-header {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #9CA3AF;
+}
+
+.list1 {
+    position: absolute;
+    right: 48%;
+    width: 16%;
+}
+
+.list2 {
+    position: absolute;
+    right: 32%;
+    width: 16%;
+}
+
+.list3 {
+    position: absolute;
+    right: 16%;
+    width: 16%;
+}
+
+.list4 {
+    position: absolute;
+    right: 0;
+    width: 16%;
+}
+
+.block5-icon {
+    left: 70px;
+    padding-top: 15px;
+    position: absolute;
+    width: 41.25px;
+    height: 37.5px;
+}
+
+.block5-content {
+    top: 150px;
+    width: 22%;
+    left: 70px;
+    position: absolute;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+.social-media {
+    top: 230px;
+    left: 70px;
+    position: absolute;
+    list-style-type: none;
+}
+
+.social-media-icon {
+    padding-right: 24px;
+    height: 20px;
+    width: 20px;
+}
+
+.social-media-icon:hover, .block5-icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 900px) {
+    .block5 {
+        width: 100%;
+        height: 683px;
+        position: relative;
+        background-color: white;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+    }
+    .block5-icon {
+        left: 16px;
+        padding-top: 15px;
+        position: absolute;
+        width: 41.25px;
+        height: 37.5px;
+    }
+    .list1 {
+        position: absolute;
+        left: -30px;
+        width: 40%;
+        top: 272px;
+    }
+    .list2 {
+        position: absolute;
+        left: -30px;
+        width: 40%;
+        top: 500px;
+    }
+    .list3 {
+        position: absolute;
+        right: 0;
+        width: 50%;
+        top: 272px;
+    }
+    .list4 {
+        position: absolute;
+        right: 0;
+        width: 50%;
+        top: 540px;
+    }
+    .social-media {
+        top: 230px;
+        left: 16px;
+        position: absolute;
+        list-style-type: none;
+    }
+    .block5-content {
+        top: 150px;
+        width: 90%;
+        left: 16px;
+        position: absolute;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6B7280;
+    }
+    .resp {
+        text-align: left !important;
+    }
+}
