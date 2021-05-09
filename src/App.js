@@ -5,6 +5,7 @@ import Block2 from "./components/Block2";
 import Block3 from "./components/Block3";
 import Block4 from "./components/Block4";
 import Block5 from "./components/Block5";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Block3 />
       <Block4 />
       <Block5 />
+      <Footer />
     </>
   );
 }

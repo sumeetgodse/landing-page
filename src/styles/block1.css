@@ -29,7 +29,7 @@
   width: 309px;
   height: 26px;
   left: 71px;
-  top: 80px;
+  top: 40px;
   background: #000000;
   border-radius: 14px;
   flex: none;
@@ -85,7 +85,7 @@
   color: #FFFFFF;
   align-self: stretch;
   left: 71px;
-  top: 120px;
+  top: 80px;
 }
 
 .ship {
@@ -104,7 +104,7 @@
   color: #D1D5DB;
   align-self: stretch;
   left: 71px;
-  top: 310px;
+  top: 270px;
 }
 
 .e__mail {
@@ -132,7 +132,7 @@ input[type="text"] {
   background: #FFFFFF;
   border-radius: 6px;
   left: 71px;
-  top: 430px;
+  top: 390px;
 }
 
 .email-text {
@@ -154,7 +154,7 @@ input[type="text"] {
   background: #6366F1;
   border-radius: 6px;
   left: 508px;
-  top: 430px;
+  top: 390px;
 }
 
 .free-trial-text {
@@ -177,7 +177,7 @@ input[type="text"] {
   color: #D1D5DB;
   align-self: stretch;
   left: 71px;
-  top: 482px;
+  top: 442px;
 }
 
 .menu-left {
@@ -207,7 +207,7 @@ input[type="text"] {
 
 .block1-img {
   margin-left: 53%;
-  margin-top: 0;
+  margin-top: -20px;
   height: auto;
   width: 680px;
   overflow: hidden;
