@@ -84,8 +84,7 @@ body {
     right: 20px;
     height: 30px;
     width: 33px;
-    top: 10px;
-    bottom: 20px;
+    top: 20px;
   }
   .topnav {
     overflow: hidden;
@@ -96,7 +95,7 @@ body {
     left: 20px;
     height: 30px;
     width: 33px;
-    top: 30px;
+    top: 20px;
     bottom: 20px;
   }
   .topnav a.logo {
